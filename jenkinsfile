@@ -17,7 +17,7 @@ pipeline {
   {
     agent { label 'demo' }
     steps { 
-     git credentialsId: 'GitlabCred', url: 'https://gitlab.com/scmlearningcentre/wezvatech-cicd.git'
+     git credentialsId: 'GITcredentials', url: 'https://gitlab.com/awesomedec22batch1/ansible/ci-cd-pipeline.git'
     }
   }
 
